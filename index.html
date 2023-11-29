@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="media.queries.css">
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"> Javier Cordero </div>
+    <div>
+      <ul class="nav-links">
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#experience">Experience</a></li>
+        <li> <a href="#projects">Projects</a></li>
+        <li> <a href="#contact">Contact</a></li>
+       </ul> 
+    </div>  
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"> Javier Cordero</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+      </div>
+      <div class="menu-links">
+        <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+        <li> <a href="#Experience"onclick="toggleMenu()">Experience</a></li>
+        <li> <a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+       <img src="./assets/Profilep.jpg" alt="Javi profile picture" class="about-pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1"> Hello I'm </p>
+        <h1 class="title"> Javier Cordero</h1>
+        <p class="section__text__p2">Student | Creator</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Resume.png')"> Resume</button>
+          
+        </div> 
+        <div id="socials-container">
+          <img src="./symbols/linkedin.png" 
+               alt="My linkedIn profile" 
+               class="icon" 
+               onclick="location.href='https://linkedin.com/in/javier-cordero-a87546178' "
+               />       
+          <img src="./symbols/instagram.png" 
+               alt="My instagram profile" 
+               class="icon" 
+               onclick="location.href='https://www.instagram.com/javicorderooo/' "/>  
+        </div>
+  </section>
+  <section id="about">
+  <p class="section__text__p1" > Get To Know More </p>
+  <h1 class="title" > About Me </h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+    <img
+    src="./assets/Javi_pro_pic-2.jpg"
+    alt="profile picture 2"
+    class="about-pic"
+    />
+    </div>
+    <div class="about-details-container">
+    <div class="about-containers">
+    <div class="details-container">
+      <img src="./symbols/experience.png"
+      alt="Experience icon"
+      class="icon"
+      />
+      <h3> Currently </h3>
+      <p> Tico Sports  <br /> Spanish Football Color Commentator </p>
+    </div>
+    <div class="details-container" >
+      <img src="./symbols/education.png"
+      alt="Education icon"
+      class="icon"
+      />
+      <h3> Education </h3>
+      <p> Kansas State University <br /> Bachelors of Journalism and Mass Communications </p>
+      </div>
+      </div>
+        <div class="text-container">
+        <p>      
+Thank you for coming to my website! I love creating content, especially sports media. I love soccer, but have recently found a love and appreciation for sports in general. The community and feeling of family keeps me coming back to watch more and more. When I am not doing school work I enjoy creating media, watching sports or just having a good time with friends.
+        </p>
+      </div>
+      </div>
+      </div>
+ 
+  </section>
+  <section id="experience">
+    <p class="section__text__p1"> Explore my</p>
+    <h1 class="title"> Experience & Skills </h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+      <div class="details-container">
+      <h2 class="experience-sub-title"> Tico Sports</h2>
+      <div class="article-container">
+      <article>
+        <img 
+        src="./symbols/checkmark.png" 
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3>Color Commentary</h3>
+          <p> Bring the games to life with color commentary</p>
+        </div>
+      </article>
+      <article>
+        <img 
+        src="./symbols/checkmark.png" 
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3>Gameday Graphic's</h3>
+          <p> Created gameday Graphic for all home games</p>
+        </div>
+      </article>
+      <article>
+        <img 
+        src="./symbols/checkmark.png"  
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3> Through Tico </h3>
+          <p>  I have Delivered siginicant auidence engagemnet results through billingual
+            live game broadcasts 
+          </p>
+        </div>
+      </article>
+    
+    </div>
+    </div>
+      <div class="details-container">
+      <h2 class="experience-sub-title"> Language & Skills</h2>
+      <div class="article-container">
+      <article>
+        <img 
+        src="./symbols/checkmark.png"  
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3>English & Spanish</h3>
+          <p> Fluent</p>
+        </div>
+      </article>
+      <article>
+        <img 
+        src="./symbols/checkmark.png"  
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3>Adobe Audition</h3>
+          <p> Well versed</p>
+        </div>
+      </article>
+      <article>
+        <img 
+        src="./symbols/checkmark.png"  
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3>Adobe Photoshop</h3>
+          <p> Experienced</p>
+        </div>
+      </article>
+      <article>
+        <img 
+        src="./symbols/checkmark.png"  
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3>Adobe Premiere Pro</h3>
+          <p> Experienced</p>
+        </div>
+      </article>
+      <article>
+        <img 
+        src="./symbols/checkmark.png"  
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3>Adobe After Effects</h3>
+          <p> Experienced</p>
+        </div>
+      </article>
+      <article>
+        <img 
+        src="./symbols/checkmark.png"  
+        alt="Experience Icon"
+        class="icon"
+        />
+        <div> 
+          <h3> Familar with Graphic Design</h3>
+          <p> Familar</p>
+        </div>
+      </article>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section id="projects">
+  <h1 class="title"> Tico Gameday Graphics</h1>
+  <div class="experience-details-container">
+    <div class="about-containers"> 
+    <div class="details-container color-container">
+    <div class="article-container">
+      <img 
+      src="./assets/KSU-VS-BAYLOR-IG.png"
+      alt="Graphic 1"
+      width="285" 
+      height="184"
+      class="project-img"
+      />
+      </div>
+        <h2 class="experience-sub-title project-title"> Kansas State Vs Baylor  </h2>
+        <p> Gameday Graphic for the Kansas State vs Baylor game on November 11, 2023</p>
+        <br>
+        <div class="btn-container">
+          <button 
+          class="btn btn-color-2 project-btn" 
+          onclick="window.open('./assets/KSU-VS-BAYLOR-IG.png')"> Closer Look 
+          </button> 
+         </div>    
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img 
+          src="./assets/KSU_vs_TCU.png"
+          alt="Graphic 1"
+          class="project-img"
+          />
+          </div>
+          <h2 class="experience-sub-title project-title"> Kansas State Vs Texas Tech </h2>
+          <p> Gameday Graphic for the Kansas State vs Texas Tech game on October 14, 2023</p>
+          <br>
+          <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="window.open('./assets/KSU_vs_TCU.png')"> 
+                Closer Look
+            </button>
+              
+           </div>
+        </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img 
+          src="./assets/KSU_VS_UH.png"
+          alt="Graphic 1"
+          class="project-img"
+          />
+          </div>
+          <h2 class="experience-sub-title project-title"> Kansas State Vs UH </h2>
+          <p> Gameday Graphic for the Kansas State vs The University of Houston game on October, 28 2023</p>
+          <br>
+          <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="window.open('./assets/KSU_VS_UH.png')">
+                Closer Look
+            </button>
+            
+           </div>
+        </div>
+
+          </div>
+  </div>
+
+</section>
+<section id="projects">
+  <h1 class="title"> Deportes Españoles</h1>
+  <div class="experience-details-container">
+    <div class="about-containers"> 
+      <div class="details-container color-container">
+        <div class="article-container">
+          <iframe width="300" height="205" src="https://www.youtube.com/embed/c-PH0eH3BDA?si=VzZZ5qK18gQzlQ6Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title"> Kansas State vs Mizzou </h2>
+          <p> Podcast episode of Deportes Españoles. This week we dive into the Wildcats game vs the Mizzou Tigers</p>
+          <br>
+          <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://www.youtube.com/watch?v=c-PH0eH3BDA')"> 
+                Listen Here
+            </button>
+           </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <iframe width="300" height="205" src="https://www.youtube.com/embed/8fmIJL8g-6Q?si=tfInueH00m409cKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title"> Kansas State vs Troy </h2>
+          <p> Podcast episode of Deportes Españoles. This week we dive into the Kansas State Wildcats vs Troy Trojans game.</p>
+          <br>
+          <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://www.youtube.com/watch?v=8fmIJL8g-6Q')"> 
+            Listen Here
+            </button>
+           </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <iframe width="300" height="205" src="https://www.youtube.com/embed/OEDXOgxd6HE?si=-YRbzNAkM837UIQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title"> Kansas State vs UCF </h2>
+          <p> Podcast episode of Deportes Españoles. This week we dive into the Kansas State Wildcats vs The University of Flordia.</p>
+          <br>
+          <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://www.youtube.com/watch?v=OEDXOgxd6HE')">
+            Listen Here
+            </button>
+           </div>
+      </div>
+
+          </div>
+  </div>
+</section>
+<section id="projects">
+
+  <h1 class="title"> News Stories</h1>
+  <div class="experience-details-container">
+    <div class="about-containers"> 
+      <div class="details-container color-container">
+        <div class="article-container">   
+          <iframe width="285" height="184" src="https://www.youtube.com/embed/MGWxMBRWL9Y?si=Tv0mmYfrZIuZd7-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+          </div>
+          <h2 class="experience-sub-title project-title"> Do You Need A College Degree Too Be Succesful </h2>
+          <p> We dive into the topic of having a college degree and what that has to do with success </p>
+          <br>
+          <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="window.open('https://www.youtube.com/watch?v=MGWxMBRWL9Y')"> 
+                View Video
+            </button>
+              
+           </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <iframe width="285" height="184" src="https://www.youtube.com/embed/RGhF7JRdxnI?si=ijy73ogvRyhXA5nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+              <h2 class="experience-sub-title project-title"> First Gen Experience  </h2>
+              <p> Gameday Graphic for the Kansas State vs Baylor game on November 11, 2023</p>
+              <br>
+              <div class="btn-container">
+                <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="window.open('https://youtu.be/RGhF7JRdxnI')"> View Video 
+                </button> 
+               </div>    
+            </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <iframe width="285" height="184" src="https://www.youtube.com/embed/AuoTSEwZF5w?si=jiDy_DHgzI5Mp8-P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <h2 class="experience-sub-title project-title"> What does Homecoming mean to Kansas State Alumni </h2>
+          <p> What is homecoming, and what about this day has almni coming back year after year almost as a tradition.</p>
+          <br>
+          <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="window.open('https://youtu.be/AuoTSEwZF5w')">
+            View Video
+            </button>
+            
+           </div>
+        </div>
+
+          </div>
+  </div>
+</section>
+<section id="projects">
+  <h1 class="title"> Graphics</h1>
+  <div class="experience-details-container">
+    <div class="about-containers"> 
+    <div class="details-container color-container">
+    <div class="article-container">
+      <img 
+      src="./symbols/Logo.png"
+      alt="Graphic 1"
+      class="project-img"
+      />
+      </div>
+        <h2 class="experience-sub-title project-title"> Logo  </h2>
+        <p> This is one of the first logos I made for myself. I used AAdboe Indesign to create the logo.
+          I used my initals as the inspiration and my passion for the outdoors. When I was creating this logo 
+          I was really into fishing so I used that as inspiration. I took my two initals and made them into hooks
+          and to overlap.
+        </p>
+        <br>
+        <div class="btn-container">
+          <button 
+          class="btn btn-color-2 project-btn" 
+          onclick="window.open('./symbols/Logo.png')"> Closer Look 
+          </button> 
+         </div>    
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img 
+          src="./symbols/MoodBoard.png"
+          alt="Graphic 1"
+          class="project-img"
+          />
+          </div>
+          <h2 class="experience-sub-title project-title"> Dunkin Donuts Mood board  </h2>
+          <p> This is a mood board I created for Dunkin Donuts. This mood board offers a primary and secondary 
+            color pallette that can be used. The board aslo has Hexcodes, RGB and CMYK labels for easy finding.
+          </p>
+          <br>
+          <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="window.open('./symbols/MoodBoard.png')"> 
+                Closer Look
+            </button>
+              
+           </div>
+        </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img 
+          src="./symbols/Wired.png"
+          alt="Graphic 1"
+          class="project-img"
+          />
+          </div>
+          <h2 class="experience-sub-title project-title"> Change of Logo</h2>
+          <p> Here we took a compnay logo and changed it with a jpg. The jpg must enhance and add to the logo 
+            while helping the audience get an idea of what the company is about just from the logo. Wired is a 
+            magazine that focuses on how emerging technologies affect culture, the economy, and politics. 
+            The png of a robot adds to the logo and gives a sense of technonlogy, the robot adds a serious tone
+            that will help the reader understand the message of the company.
+          </p>
+          <br>
+          <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" 
+            onclick="window.open('./symbols/Wired.png')">
+                Closer Look
+            </button>
+            
+           </div>
+        </div>
+
+          </div>
+  </div>
+</section>
+<section id="contact">
+  <p class="section__text__p1"> Get in Touch</p>
+  <h1 class="title" > Contact Me</h1>
+  <div class="contact-info-upper-container">
+  <div class="contact-info-container">
+    <img 
+    src="./assets/email.png" 
+    alt=" email icon" 
+    class="icon contact-icon email-icon"
+    />
+    <p><a href="mailto: Javiercordero12700@gmail.com"> Javiercordero12700@gmail.com</a>
+    </p>
+  </div>
+  <div class=" contact-info-container">
+    <img 
+    src="./symbols/linkedin.png" 
+    alt=" LinkedIn icon" 
+    class="icon contact-icon"
+    onclick="location.href='https://linkedin.com/in/javier-cordero-a87546178' "
+    />
+    <p><a href='https://linkedin.com/in/javier-cordero-a87546178'> LinkedIn</a></p>
+  </div>
+  </div>
+</section>
+<footer> 
+  <nav>
+    <div class="nav-links-container" >
+      <ul class="nav-links">
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#experience">Experience</a></li>
+        <li> <a href="#projects">Projects</a></li>
+        <li> <a href="#contact">Contact</a></li>
+       </ul>
+    </div>
+  </nav>
+  <p> Copyright &#169; 2023 Javier Cordero. All Rights Reserved.</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+ 
